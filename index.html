@@ -246,7 +246,9 @@ input{font:inherit;padding:11px 12px;border:1px solid #b9b2a2;border-radius:3px;
   *,*::before,*::after{animation:none!important;transition:none!important}
   .js .aparece{opacity:1;transform:none}
 }
-.despacho-foto figcaption{margin-top:14px;font-size:.88rem;color:var(--oro-claro)}
+.despacho-foto::before{display:none}
+.despacho-foto img{box-shadow:16px 16px 0 -1px var(--azul),16px 16px 0 0 var(--oro)}
+.despacho-foto figcaption{margin-top:30px;font-size:.88rem;color:var(--oro-claro)}
 </style>
 <script type="application/ld+json">
 {"@context":"https://schema.org","@graph":[
